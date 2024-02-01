@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section_1 {
+  width: 50%;
+  margin: 20px auto;
+  position: relative;
+  display: flex;
+}
+
+.section_1 #left_btn,
+.section_1 #right_btn {
+  position: absolute;
+  top: 30%;
+  width: 256px;
+  height: 198px;
+  z-index: 2;
+  border: 10px solid green;
+}
+
+#left_btn {
+  left: -50%;
+}
+
+#right_btn {
+  right: -50%;
+}
+
+.section_2 {
+  width: 50%;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 15px auto;
+  gap: 15px;
+}
+
+.section_2 img {
+  width: 138px;
+  height: 100px;
+  opacity: 0.8;
+  padding: 2px;
+}
+body {
+  background-color: #624d4d;
+}
